@@ -1,0 +1,53 @@
+#wrapper{
+  display: flex;
+}
+
+#menu-wrapper{
+  flex: 0.5;
+  border-right: 0.5px solid #1c606a;
+}
+
+#page-wrapper{
+  flex: 2;
+  margin: 5px;
+}
+
+h1.page-header{
+  text-align: center;
+}
+
+#change_button{
+  background-color: #1cc88a;
+  width: 150px;
+  padding: 0.5em;
+  text-align: center;
+}
+
+#change_button a{
+  display: block;
+  height: 100%;
+  text-decoration: none;
+  color: #dce3f9;
+}
+
+#save{
+  display: block;
+  margin: 1em;
+}
+
+.update div{
+  margin-top: 1em;
+}
+#group {
+  width: 40%;
+  margin-top: 1em;
+  align-content: end;
+}
+
+#users td{
+  border:1px solid black;
+}
+
+#users tr{
+  text-align: center;
+}
